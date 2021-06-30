@@ -1,22 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import jsonData from './example_data.json';
 
 function App() {
+
+  const exampleProduct = JSON.parse(JSON.stringify(jsonData));
+
+  // You can view the entire example product structure in the browser console.
+  console.log(exampleProduct)
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          <h2>Product Description:</h2>
+          <div>{exampleProduct.productDescription}</div>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
