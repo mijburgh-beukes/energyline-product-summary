@@ -1,1 +1,48 @@
-{"id":"ae987a72-77b3-4919-871c-b35c52140ce1","mountingMethod":"recessed","fixtureWidth":65,"fixtureLength":1135,"fixtureHeight":72,"color":"black","suspensionMethod":null,"directDistribution":"microprism","directLumens":1000,"indirectDistribution":null,"indirectLumens":null,"directCri":"80","directCct":"4000K","indirectCri":null,"indirectCct":null,"controls":"DALI","location":{"state":"NZL","country":"NZL"},"factoryNote":{"lumensPerWatt":"109","directEngine":null,"indirectEngine":null},"emailLogs":null,"mountingDescription":"Supplied with a minimum of two recessed brackets per fitting section.","productCode":"ELA-00755","productImage":"https://api.energyline.net/assets/adventor-assets/product-images/profile-65/micro-prism-recessed.png","polarCurveImage":null,"productFeatures":["Accu-join for light-tight seamless joins","Concealed fixing, light-tight end caps","Factory finished for rapid and low risk installation","Efficacy up to 109lm/W","Utilises microprism direct component with a diffuse appearance, possible for UGR 19 glare control"],"productDescription":"Energyline 65 1135mm recessed black luminaire with 1000lm/m microprism diffuser 4000K CRI80 direct lighting complete with fully internal DALI control gear, 7 year warranty, light leak prevention, L80 B10 72000hrs and IP5x protection","productShortDescription":"Energyline 65 1135mm recessed 1000lm/m microprism diffuser 4000K CRI80 black DALI","request":{"email":"test@example.net","city":null,"region":null,"country":null},"flags":[]}
+{
+  "id": "ae987a72-77b3-4919-871c-b35c52140ce1",
+  "mountingMethod": "recessed",
+  "fixtureWidth": 65,
+  "fixtureLength": 1135,
+  "fixtureHeight": 72,
+  "color": "black",
+  "suspensionMethod": null,
+  "directDistribution": "microprism",
+  "directLumens": 1000,
+  "indirectDistribution": null,
+  "indirectLumens": null,
+  "directCri": "80",
+  "directCct": "4000K",
+  "indirectCri": null,
+  "indirectCct": null,
+  "controls": "DALI",
+  "location": {
+    "state": "NZL",
+    "country": "NZL"
+  },
+  "factoryNote": {
+    "lumensPerWatt": "109",
+    "directEngine": null,
+    "indirectEngine": null
+  },
+  "emailLogs": null,
+  "mountingDescription": "Supplied with a minimum of two recessed brackets per fitting section.",
+  "productCode": "ELA-00755",
+  "productImage": "https://api.energyline.net/assets/adventor-assets/product-images/profile-65/micro-prism-recessed.png",
+  "polarCurveImage": null,
+  "productFeatures": [
+    "Accu-join for light-tight seamless joins",
+    "Concealed fixing, light-tight end caps",
+    "Factory finished for rapid and low risk installation",
+    "Efficacy up to 109lm/W",
+    "Utilises microprism direct component with a diffuse appearance, possible for UGR 19 glare control"
+  ],
+  "productDescription": "Energyline 65 1135mm recessed black luminaire with 1000lm/m microprism diffuser 4000K CRI80 direct lighting complete with fully internal DALI control gear, 7 year warranty, light leak prevention, L80 B10 72000hrs and IP5x protection",
+  "productShortDescription": "Energyline 65 1135mm recessed 1000lm/m microprism diffuser 4000K CRI80 black DALI",
+  "request": {
+    "email": "test@example.net",
+    "city": null,
+    "region": null,
+    "country": null
+  },
+  "flags": []
+}
