@@ -1,5 +1,6 @@
 import './App.css';
 import jsonData from './example_data.json';
+import Summary from './Summary'
 
 function App() {
 
@@ -11,11 +12,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
           <h2>Product Description:</h2>
           <div>{exampleProduct.productDescription}</div>
-        </p>
       </header>
+      <Summary data={exampleProduct}/>
     </div>
   );
 }
