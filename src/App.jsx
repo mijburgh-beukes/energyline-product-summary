@@ -12,8 +12,15 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-          <h2>Product Description:</h2>
-          <div>{exampleProduct.productDescription}</div>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Partners</a></li>
+          </ul>
+        </nav>
       </header>
       <Summary data={exampleProduct}/>
     </div>
