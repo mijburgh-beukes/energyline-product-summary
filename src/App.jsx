@@ -14,11 +14,11 @@ function App() {
       <header className="App-header">
         <nav>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Partners</a></li>
+            <li>Home</li>
+            <li>Products</li>
+            <li>Projects</li>
+            <li>About Us</li>
+            <li>Partners</li>
           </ul>
         </nav>
       </header>
