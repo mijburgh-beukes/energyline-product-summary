@@ -88,11 +88,10 @@ h1, h2, h3, h4 {
   line-height: 1.8;
 }
 
-/* TODO remove initial indent from ul but keep text indent */
-/* ul {
-  list-style-position: inside;
-  padding-left: 0;
-} */
+ul {
+  list-style-position: outside;
+  padding-left: 1.3rem;
+}
 
 li::marker {
   color: var(--el-orange);
