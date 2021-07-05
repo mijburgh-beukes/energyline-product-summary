@@ -9,7 +9,7 @@ export default function Summary ({ data }) {
       <div className="container">
 
         <div className="summary-header">
-          <h1 className="summary-h1">Product Summary</h1>
+          <h1 className="summary-h1">Product<br/>Summary</h1>
           <img src={data.productImage} alt={`Render of Energyline 65 ${data.productCode}`}/>
           <h2 className="summary-h2">{data.productCode}</h2>
         </div> {/* summary-header */}

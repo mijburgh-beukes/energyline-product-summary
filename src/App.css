@@ -8,6 +8,7 @@ Global
   --el-charc: #2d2d2d;
   --el-grey: #959595;
 }
+
 /*
 ==============
 Typography
@@ -37,83 +38,12 @@ Typography
 
 }
 
-h1, h2, h3, h4 {
-  margin: 0
-}
-
-.summary-h1 {
-  text-transform: uppercase;
-  font-size: 2rem;
-  color: white;
-}
-
-.summary-h2 {
-  font-weight: 900;
-  font-size: 3rem;
-  text-transform: uppercase;
-  text-align: right;
-}
-
-.summary-h3,
-.config-h3 {
-  font-size: 1.25rem;
-  text-transform: uppercase;
-}
-
-.config-h3 {
-  margin: 0 1em;
-  color: white;
-}
-
-.summary-h3 {
-  color: var(--el-grey);
-}
-
-.config-h4 {
-  text-transform: uppercase;
-  font-size: 0.625rem;
-  font-weight: 400;
-  color: var(--el-orange);
-}
-
-.config-option {
-  font-size: 1.5rem;
-  margin: 0 0 1em;
-  font-weight: 700;
-  text-transform: capitalize;
-}
-
-.summary-body-intro {
-  font-size: 1.25rem;
-  line-height: 1.8;
-}
-
-ul {
-  list-style-position: outside;
-  padding-left: 1.3rem;
-}
-
-li::marker {
-  color: var(--el-orange);
-}
-
-li {
-  color: var(--el-charc);
-  margin-bottom: 7px;
-}
-
 /*
 ==============
 Components/Layout
 ==============
 */
 
-.container {
-  max-width: 960px;
-  margin: 20px auto;
-  background: white;
-  box-shadow: 0 0 10px var(--el-grey);
-}
 
 .App {
   /* text-align: center; */
