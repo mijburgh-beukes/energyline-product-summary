@@ -21,3 +21,13 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+/public/img
+/public/favicon.ico
+/public/sinkin-sans
+/public/sinkin-sans-fontfacekit
+/public/sinkin-sans.zip
+/public/sinkin-sans-fontfacekit.zip
+/public/logo192.png
+/public/logo512.png
+/src/logo.svg
+/src/ELA-00674 Specification.pdf

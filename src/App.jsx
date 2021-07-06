@@ -11,17 +11,6 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <nav>
-          <ul>
-            <li>Home</li>
-            <li>Products</li>
-            <li>Projects</li>
-            <li>About Us</li>
-            <li>Partners</li>
-          </ul>
-        </nav>
-      </header>
       <Summary data={exampleProduct}/>
     </div>
   );

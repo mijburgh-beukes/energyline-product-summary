@@ -10,14 +10,14 @@ h1, h2, h3, h4 {
 
 .summary-h1 {
   text-transform: uppercase;
-  font-size: 2rem;
+  font-size: min(5vw, 1.375rem) ;
   line-height: 1;
   color: white;
 }
 
 .summary-h2 {
   font-weight: 900;
-  font-size: 3rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
   text-align: right;
 }
@@ -51,7 +51,7 @@ h1, h2, h3, h4 {
 }
 
 .summary-body-intro {
-  font-size: 1.25rem;
+  /* font-size: 1.25rem; */
   line-height: 1.8;
   margin: 0 0 2em;
 }
@@ -76,9 +76,14 @@ Components/Layout
 ==============
 */
 
+main {
+  margin: 0 0.75em;
+  min-width: 320px;
+}
+
 .container {
   max-width: 960px;
-  margin: 20px auto;
+  margin: 0.75em auto;
   background: white;
   box-shadow: 0 0 10px var(--el-grey);
   position: relative;
@@ -87,7 +92,7 @@ Components/Layout
 
 .summary-header {
   position: relative;
-  height: 300px;
+  height: 200px;
 }
 
 .summary-header:before {
@@ -95,7 +100,7 @@ Components/Layout
   position: absolute;
   background-color: var(--el-orange);
   width:100%;
-  height: 180px;
+  height: 135px;
   top:0;
   border-radius: 5px 5px 0 0;
 }
@@ -105,28 +110,28 @@ Components/Layout
   top: 2rem;
   left: 3rem;
   z-index: 200;
-}
+}  
 
 .summary-h2 {
   position: absolute;
   right: 3rem;
   bottom: 0rem;
-  z-index: 200;
-}
+  z-index: 201;
+}  
 
 .summary-header > img {
-  width: 630px;
+  width: 100%;
+  max-width: 387px;
   position: absolute;
   z-index: 200;
 }
 
 .summary-body {
   padding: 3em;
-  display: flex;
 }
 
 .summary-body-description {
-  padding-right: 3rem;
+  margin-bottom: 2.5em;
 }
 
 .summary-body-config {
@@ -146,6 +151,52 @@ Components/Layout
   border-radius: 5px 5px 0 0;
 
 }
+
 @media (min-width: 760px) {
   
+  /*
+  ==============
+  Typography
+  ==============
+  */
+
+  .summary-h1 {
+    font-size: 2rem;
+  }
+  
+  .summary-h2 {
+    font-size: 3rem;
+  }
+  
+  .summary-body-intro {
+    font-size: 1.25rem;
+  }
+  
+  /*
+  ==============
+  Components/Layout
+  ==============
+  */
+  
+  .summary-header {
+    height: 300px;
+  }
+  
+  .summary-header:before {
+    height: 200px;
+    }
+  
+  .summary-header > img {
+    max-width: 630px;
+  }
+  
+  .summary-body {
+    padding: 3em;
+    display: flex;
+  }
+  
+  .summary-body-description {
+    padding-right: 3rem;
+    margin-bottom: 0;
+  }
 }
